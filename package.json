@@ -1,0 +1,28 @@
+{
+  "name": "@nahidakbar.net/typescript",
+  "version": "0.0.4",
+  "description": "Tooling for typescript projects",
+  "bin": {
+    "ts-lint": "lint.js",
+    "ts-build": "build.js",
+    "ts-test": "test.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nahid Akbar",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "chalk": "^2.4.2",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "source-map-support": "^0.5.13",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  }
+}
